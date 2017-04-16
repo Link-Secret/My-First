@@ -1,2 +1,2 @@
 # My-First
-This is my GitHub repository
+This is my GitHub repository with java learning
