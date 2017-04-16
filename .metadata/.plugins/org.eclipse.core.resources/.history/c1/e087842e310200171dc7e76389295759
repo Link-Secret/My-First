@@ -1,0 +1,32 @@
+package coin;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Coin {
+    private HashMap<Integer, String>  coinsname = new HashMap<Integer, String>(); 
+	
+    
+    public Coin(){
+    	coinsname.put(1, "first");
+        coinsname.put(2, "second");
+        coinsname.put(3, "thurth");
+    	
+    }
+    
+    public String getName(int amount){
+    	if(coinsname.containsKey(amount))
+    		return coinsname.get(amount);
+    	else 
+    		return "NOT¡¡FOUND";
+    }
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int amount = in.nextInt();
+		Coin coin = new Coin();
+		String name = coin.getName(amount);
+		System.out.println(name);
+
+	}
+
+}

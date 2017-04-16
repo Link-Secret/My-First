@@ -1,0 +1,26 @@
+package castle;
+
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
+
+public class HandlerBye extends Handler {
+
+	@Override
+	public void publish(LogRecord record) {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void flush() {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void close() throws SecurityException {
+		// TODO 自动生成的方法存根
+
+	}
+
+}
